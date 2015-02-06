@@ -1,36 +1,35 @@
 {
-  "name": "plugin-jsx",
+  "name": "plugin-cjsx",
   "version": "0.1.1",
-  "description": "JSX loader plugin",
-  "main": "jsx",
+  "description": "CJSX loader plugin",
+  "main": "cjsx",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatdrop/plugin-jsx.git"
+    "url": "https://github.com/chrismcv/plugin-cjsx.git"
   },
   "keywords": [
     "jspm",
-    "jsx",
+    "cjsx",
     "loader",
     "plugin"
   ],
-  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "author": "Chris McVittie <chris@greenflump.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/floatdrop/plugin-jsx/issues"
+    "url": "https://github.com/chrismcv/plugin-cjsx/issues"
   },
-  "homepage": "https://github.com/floatdrop/plugin-jsx",
+  "homepage": "https://github.com/chrismcv/plugin-cjsx",
   "devDependencies": {
     "connect": "^3.3.3",
     "open": "0.0.5",
     "serve-static": "^1.7.1"
   },
   "jspm": {
-    "main": "jsx",
     "dependencies": {
-      "react-tools": "npm:react-tools@^0.12.1"
+      "coffee-react-transform": "npm:coffee-react-transform@^2.2.1"
     }
   }
 }
